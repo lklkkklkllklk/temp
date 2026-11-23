@@ -1,7 +1,7 @@
 local Kyn = {}
 
 function Kyn.hasPremium()
-    return getgenv().PremiumAccess
+    return true
 end
 
 local GuiLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/timmyg69420/GuiLib/refs/heads/main/main.lua"))()
